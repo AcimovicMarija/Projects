@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Units">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.jdks/selenium-remote-driver-3.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/selenium-chrome-driver-3.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/selenium-api-3.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/jna-4.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/jna-platform-4.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/httpcore-4.4.6.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/httpclient-4.5.3.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/guava-21.0.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/gson-2.8.0.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/commons-exec-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/commons-codec-1.10.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/cglib-nodep-3.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

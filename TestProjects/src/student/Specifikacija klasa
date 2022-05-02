@@ -1,0 +1,58 @@
+Class Student
+
+Constructor and Description
+    Student(java.lang.String ime, java.lang.String prezime, java.lang.String brojIndeksa)
+    Konstruise objekat klase Student sa svim potrebnim podacima
+
+Method Summary
+    void	evidentirajRadjeniTest(Test radjeniTest)
+    Dodaje u evidenciju ovog studenta test koji je radio
+
+    java.lang.String	getBrojIndeksa()
+    Vraca podatak o broju indeksa studenta
+
+    double	getBrojPoenaZaPredmet(java.lang.String predmet)
+    Vraca broj poena na poslednjem radjenom testu (po datumu)
+    za odredjeni predmet cije ime je dato kao argument metoda.
+
+    java.lang.String	getIme()
+    Vraca podatak o imenu studenta
+
+    java.lang.String	getPrezime()
+    Vraca podatak o prezimenu studenta
+
+    Methods inherited from class java.lang.Object
+    clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait
+
+
+Class Test
+
+Constructor Summary
+    Test(java.lang.String imePredmeta, java.lang.String datumIso, int brojPitanja, int brojTacnihOdgovora)
+    Konstruise objekat koji sadrzi podatke o testi, medju kojima su ime predmeta, datum u ISO formatu,
+    broj pitanja na testu kao i broj tacno odgovorenih pitanja.
+
+Method Summary
+    int	getBrojPitanja()
+    Vraca broj pitanja na testu
+
+    double	getBrojPoena(int maksimum)
+    Vraca broj poena ostvarenih na testu izracunat na osnovu procenta tacno odgovorenih pitanja
+    i maksimalnog broja poena koliko vredi test, tako da za 100% tacan test vrati maksimum broja poena
+
+    int	getBrojTacnihOdgovora()
+    Vraca broj tacno odgovorenih pitanja na testu
+
+    java.lang.String	getDatumIso()
+    Vraca datum test
+
+    java.lang.String	getImePredmeta()
+    Vraca ime predmeta
+
+    double	getProcenatTacnihOdgovora()
+    Vraca realnu vrednost od 0 do 100 koja predstavlja procenat tacno odgovorenih pitanja
+    u odnosu na ukupan broj pitanja
+
+    java.lang.String	toString()
+    Simbolom ; (tacka zarez) razdvojene vrednosti podataka o testu i to:
+    ime predmeta, broj tacnih odgovora, broj pitanja i rocenat tacnih odgovora zaokruzen na dve decimale.
